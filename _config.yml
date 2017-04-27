@@ -7,7 +7,7 @@ title: Sumhery
 subtitle:
 description:
 author: Jiangsuyong
-language:zh-cn
+language:
 timezone:
 
 # URL
@@ -67,5 +67,7 @@ theme: hexo-theme-next
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
-deploy: https://github.com/JiangSuyong/jiangsuyong.github.io.git
-  type:
+deploy: 
+  type: git
+  repo: https://github.com/JiangSuyong/jiangsuyong.github.io.git
+  branch: master
