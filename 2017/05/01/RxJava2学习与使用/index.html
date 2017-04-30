@@ -74,7 +74,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="SumHery的博客" />
+  <meta name="keywords" content="RxJava2," />
 
 
 
@@ -90,12 +90,21 @@
 
 
 
-<meta property="og:type" content="website">
-<meta property="og:title" content="Sumhery">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="RxJava2学习与使用RxJava可以说在java中相当流行的一个库了。RxJava目前分RxJava1与RxJava2两个版本。这是它的github地址:github.com/ReactiveX/RxJava。
+RxJava2基于reactive-streams重写的。这是Java实现的reactive-streams的github路径https://github.com/reactive-s">
+<meta property="og:type" content="article">
+<meta property="og:title" content="RxJava2学习与使用">
+<meta property="og:url" content="http://yoursite.com/2017/05/01/RxJava2学习与使用/index.html">
 <meta property="og:site_name" content="Sumhery">
+<meta property="og:description" content="RxJava2学习与使用RxJava可以说在java中相当流行的一个库了。RxJava目前分RxJava1与RxJava2两个版本。这是它的github地址:github.com/ReactiveX/RxJava。
+RxJava2基于reactive-streams重写的。这是Java实现的reactive-streams的github路径https://github.com/reactive-s">
+<meta property="og:image" content="http://op7g58imx.bkt.clouddn.com/RxJava2%E5%AD%A6%E4%B9%A0%E4%B8%8E%E4%BD%BF%E7%94%A8RxJava2-1.png">
+<meta property="og:updated_time" content="2017-04-30T17:44:13.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Sumhery">
+<meta name="twitter:title" content="RxJava2学习与使用">
+<meta name="twitter:description" content="RxJava2学习与使用RxJava可以说在java中相当流行的一个库了。RxJava目前分RxJava1与RxJava2两个版本。这是它的github地址:github.com/ReactiveX/RxJava。
+RxJava2基于reactive-streams重写的。这是Java实现的reactive-streams的github路径https://github.com/reactive-s">
+<meta name="twitter:image" content="http://op7g58imx.bkt.clouddn.com/RxJava2%E5%AD%A6%E4%B9%A0%E4%B8%8E%E4%BD%BF%E7%94%A8RxJava2-1.png">
 
 
 
@@ -123,13 +132,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/05/01/RxJava2学习与使用/"/>
 
 
 
 
 
-  <title>Sumhery</title>
+  <title>RxJava2学习与使用 | Sumhery</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -154,9 +163,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -259,9 +266,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -291,10 +298,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/2017/05/01/RxJava2学习与使用/" itemprop="url">
-                  RxJava2学习与使用
-                </a>
+                RxJava2学习与使用
               
             
           </h1>
@@ -344,9 +348,7 @@
       
 
       
-        
-          
-            <h1 id="RxJava2学习与使用"><a href="#RxJava2学习与使用" class="headerlink" title="RxJava2学习与使用"></a>RxJava2学习与使用</h1><p>RxJava可以说在java中相当流行的一个库了。RxJava目前分RxJava1与RxJava2两个版本。这是它的github地址:<a href="https://github.com/ReactiveX/RxJava" target="_blank" rel="external">github.com/ReactiveX/RxJava</a>。</p>
+        <h1 id="RxJava2学习与使用"><a href="#RxJava2学习与使用" class="headerlink" title="RxJava2学习与使用"></a>RxJava2学习与使用</h1><p>RxJava可以说在java中相当流行的一个库了。RxJava目前分RxJava1与RxJava2两个版本。这是它的github地址:<a href="https://github.com/ReactiveX/RxJava" target="_blank" rel="external">github.com/ReactiveX/RxJava</a>。</p>
 <p>RxJava2基于<a href="http://www.reactive-streams.org" target="_blank" rel="external">reactive-streams</a>重写的。这是Java实现的reactive-streams的github路径<a href="https://github.com/reactive-streams/reactive-streams-jvm" target="_blank" rel="external">https://github.com/reactive-streams/reactive-streams-jvm</a>。我们来看reactive-streams-jvm的api接:<img src="http://op7g58imx.bkt.clouddn.com/RxJava2%E5%AD%A6%E4%B9%A0%E4%B8%8E%E4%BD%BF%E7%94%A8RxJava2-1.png" alt="image"></p>
 <p>这里面仅仅有4个接口<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">/**</div><div class="line"> * A Processor represents a processing stage—which is both a &#123;@link Subscriber&#125;</div><div class="line"> * and a &#123;@link Publisher&#125; and obeys the contracts of both.</div><div class="line"> *</div><div class="line"> * @param &lt;T&gt; the type of element signaled to the &#123;@link Subscriber&#125;</div><div class="line"> * @param &lt;R&gt; the type of element signaled by the &#123;@link Publisher&#125;</div><div class="line"> */</div><div class="line">public interface Processor&lt;T, R&gt; extends Subscriber&lt;T&gt;, Publisher&lt;R&gt; &#123;</div><div class="line">&#125;</div></pre></td></tr></table></figure></p>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div><div class="line">21</div><div class="line">22</div><div class="line">23</div><div class="line">24</div><div class="line">25</div><div class="line">26</div><div class="line">27</div></pre></td><td class="code"><pre><div class="line">/**</div><div class="line"> * A &#123;@link Publisher&#125; is a provider of a potentially unbounded number of sequenced elements, publishing them according to</div><div class="line"> * the demand received from its &#123;@link Subscriber&#125;(s).</div><div class="line"> * &lt;p&gt;</div><div class="line"> * A &#123;@link Publisher&#125; can serve multiple &#123;@link Subscriber&#125;s subscribed &#123;@link #subscribe(Subscriber)&#125; dynamically</div><div class="line"> * at various points in time.</div><div class="line"> *</div><div class="line"> * @param &lt;T&gt; the type of element signaled.</div><div class="line"> */</div><div class="line">public interface Publisher&lt;T&gt; &#123;</div><div class="line"></div><div class="line">    /**</div><div class="line">     * Request &#123;@link Publisher&#125; to start streaming data.</div><div class="line">     * &lt;p&gt;</div><div class="line">     * This is a &quot;factory method&quot; and can be called multiple times, each time starting a new &#123;@link Subscription&#125;.</div><div class="line">     * &lt;p&gt;</div><div class="line">     * Each &#123;@link Subscription&#125; will work for only a single &#123;@link Subscriber&#125;.</div><div class="line">     * &lt;p&gt;</div><div class="line">     * A &#123;@link Subscriber&#125; should only subscribe once to a single &#123;@link Publisher&#125;.</div><div class="line">     * &lt;p&gt;</div><div class="line">     * If the &#123;@link Publisher&#125; rejects the subscription attempt or otherwise fails it will</div><div class="line">     * signal the error via &#123;@link Subscriber#onError&#125;.</div><div class="line">     *</div><div class="line">     * @param s the &#123;@link Subscriber&#125; that will consume signals from this &#123;@link Publisher&#125;</div><div class="line">     */</div><div class="line">    public void subscribe(Subscriber&lt;? super T&gt; s);</div><div class="line">&#125;</div></pre></td></tr></table></figure>
@@ -371,42 +373,56 @@
 <li>网络上其他博文，这里不一一列举</li>
 </ol>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
     <footer class="post-footer">
       
+        <div class="post-tags">
+          
+            <a href="/tags/RxJava2/" rel="tag"># RxJava2</a>
+          
+        </div>
+      
+
+      
+        
+      
 
       
 
       
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -414,6 +430,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -433,8 +453,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/images/avatar.gif"
@@ -498,6 +527,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#RxJava2学习与使用"><span class="nav-number">1.</span> <span class="nav-text">RxJava2学习与使用</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#RxJava-2-features-several-base-classes-you-can-discover-operators-on"><span class="nav-number">1.0.1.</span> <span class="nav-text">RxJava 2 features several base classes you can discover operators on:</span></a></li></ol></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -611,6 +656,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
 
   
 
