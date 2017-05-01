@@ -2,7 +2,7 @@
 title: RxJava2学习与使用
 date: 2017-05-01 01:32:04
 tags: RxJava2
-
+categories: Android
 ---
 
 # RxJava2学习与使用
@@ -164,7 +164,8 @@ public class HelloWorld {
 - io.reactivex.Completable: a flow without items but only a completion or error signal
 - io.reactivex.Maybe: a flow with no items, exactly one item or an error
 
- 对于这些个描述，我们可以根据这些来具体如何使用这些个类了。
+对于这些个描述，我们可以根据这些来具体如何使用这些个类了。
+
 
 
 
