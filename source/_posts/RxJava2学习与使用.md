@@ -176,7 +176,8 @@ public class HelloWorld {
 参考：
 1. https://github.com/ReactiveX/RxJava
 2. 拉丁吴 [关于RxJava最友好的文章](http://www.jianshu.com/u/1d8042233f67)
-3. 网络上其他博文，这里不一一列举
+3. 许矶法 [RxJava2 常用方法介绍](https://blog.xujifa.cn/2017/02/22/rxjava/)
+4. 网络上其他博文，这里不一一列举
 
 
 
