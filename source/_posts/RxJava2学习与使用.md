@@ -171,7 +171,7 @@ public class HelloWorld {
 
 
 
-最后，谢谢前人开发出这么好的库给我们使用，同时也感觉网络上编写相关博文的人，让我了解和使用RxJava2。
+最后，谢谢前人开发出这么好的库给我们使用，同时也感谢网络上编写相关博文的人，让我了解和使用RxJava2。
 
 参考：
 1. https://github.com/ReactiveX/RxJava
