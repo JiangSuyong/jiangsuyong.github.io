@@ -5,7 +5,7 @@ tags: RxJava2
 categories: Android
 ---
 
-# RxJava2学习与使用
+#            RxJava2学习与使用
 
 RxJava可以说在java中相当流行的一个库了。RxJava目前分RxJava1与RxJava2两个版本。这是它的github地址:[github.com/ReactiveX/RxJava](https://github.com/ReactiveX/RxJava)。
 
@@ -178,6 +178,8 @@ public class HelloWorld {
 2. 拉丁吴 [关于RxJava最友好的文章](http://www.jianshu.com/u/1d8042233f67)
 3. 许矶法 [RxJava2 常用方法介绍](https://blog.xujifa.cn/2017/02/22/rxjava/)
 4. 网络上其他博文，这里不一一列举
+
+
 
 
 
